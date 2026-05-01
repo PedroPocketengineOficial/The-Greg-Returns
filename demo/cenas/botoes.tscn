@@ -1,0 +1,35 @@
+[gd_scene format=3 uid="uid://b4xg08rdfleab"]
+
+[ext_resource type="Script" uid="uid://c61qyxwxyso3o" path="res://demo/cenas/botoes.gd" id="1_g530v"]
+[ext_resource type="Texture2D" uid="uid://cxb3ussqev0dp" path="res://icon.svg" id="1_v70o2"]
+
+[node name="botoes" type="CanvasLayer" unique_id=1818096771]
+script = ExtResource("1_g530v")
+
+[node name="cima" type="TouchScreenButton" parent="." unique_id=659369350]
+modulate = Color(0, 0, 0, 1)
+position = Vector2(159, 479)
+scale = Vector2(1.0853438, 1.0768048)
+texture_normal = ExtResource("1_v70o2")
+action = "ui_up"
+
+[node name="baixo" type="TouchScreenButton" parent="." unique_id=959206094]
+modulate = Color(0, 0, 0, 1)
+position = Vector2(158, 777)
+scale = Vector2(1.1043518, 1.0690769)
+texture_normal = ExtResource("1_v70o2")
+action = "ui_down"
+
+[node name="esquerda" type="TouchScreenButton" parent="." unique_id=158087016]
+modulate = Color(0, 0, 0, 1)
+position = Vector2(18, 628)
+scale = Vector2(1.064608, 1.0816723)
+texture_normal = ExtResource("1_v70o2")
+action = "ui_left"
+
+[node name="direita" type="TouchScreenButton" parent="." unique_id=1659501327]
+modulate = Color(0, 0, 0, 1)
+position = Vector2(311, 624)
+scale = Vector2(1.0437455, 1.08307)
+texture_normal = ExtResource("1_v70o2")
+action = "ui_right"
